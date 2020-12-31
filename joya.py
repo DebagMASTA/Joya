@@ -5,8 +5,8 @@ import datetime
 import schedule
 
 
-num_of_bonnou=5
-num_of_HNY=10000
+num_of_bonnou=108
+num_of_HNY=1000000
 
 file_bell = 'teranokane.mp3' #再生したいmp3ファイル
 file_HNY_sound='happytime.mp3'
@@ -40,7 +40,7 @@ def joya():
     pygame.mixer.music.stop() #音源の長さ待ったら再生停止
 
 joya()
-# schedule.every().day.at("23:45").do(joya)
+# schedule.every().day.at("23:55").do(joya)
   
 # while True:
 #   schedule.run_pending()

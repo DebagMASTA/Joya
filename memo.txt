@@ -1,0 +1,12 @@
+# from pydub import AudioSegment
+
+# sound=AudioSegment.from_file('teranokane.mp3')
+
+# sound1=sound[1000:3000]
+# sound1.export('kane_short.mp3')
+
+
+I used ffmpeg to make kane_fast.mp3
+comand is below
+
+ffmpeg -i kane_short.mp3 -af atempo=2.0 kane_fast.mp3
